@@ -44,5 +44,24 @@ productos.forEach((productoEnArray, indice)=> {
         let productoCarrito = productos[indice]
         carrito.push(productoCarrito)
         localStorage.setItem("carrito", JSON.stringify(carrito))
+        console.log(carrito)
     })
+})
+
+let botonCarrito = document.querySelector("#divProductos")
+botonCarrito.addEventListener("click", () => {
+    Toastify({
+        text: "Agregado al carrito",
+        duration: 3000,
+        destination: "https://github.com/apvarun/toastify-js",
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "#607963",
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
 })
