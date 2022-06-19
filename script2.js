@@ -27,8 +27,8 @@ if(localStorage.getItem("carrito")) {
 let divProductos = document.querySelector("#divProductos")
 productos.forEach((productoEnArray, indice) => {
     divProductos.innerHTML += `
-    <div class="card border-primary mb-3 row col-md-3 border-start border-dark" id="producto${indice}">
-        <img src="https://dummyimage.com/50x50" class="card-img-top" alt="foto1">
+    <div class="card border-primary mb-3 row col-md-3 border-start border-dark margin-3" id="producto${indice}">
+        <img src="./img/${productoEnArray.imagenes}" class="card-img-top" alt="foto1">
         <div class="card-body">
           <h5 class="card-title">${productoEnArray.nombre}</h5>
           <p class="card-text">$${productoEnArray.precio}</p>
