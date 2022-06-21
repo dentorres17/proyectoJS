@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Tapiz grande",
+        "precio": 8000,
+        "imagen": "tapizGrande.png"
+    },
+    {
+        "nombre": "Tapiz chico",
+        "precio": 4500,
+        "imagen": "tapizChico.png"
+    },
+    {
+        "nombre": "Espejo grande",
+        "precio": 2500,
+        "imagen": "espejoGrande.png"
+    },
+    {
+        "nombre": "Espejo chico",
+        "precio": 2100,
+        "imagen": "espejoChico.png"
+    },
+    {
+        "nombre": "Portamacetas",
+        "precio": 2050,
+        "imagen": "portamacetas.png"
+    },
+    {
+        "nombre": "Adornos",
+        "precio": 1200,
+        "imagen": "adornos.png"
+    }
+        
+]
